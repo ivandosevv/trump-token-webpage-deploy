@@ -26,7 +26,7 @@ const NavBar = () => {
             <a href="#community" className="hover:text-red-400">Community</a>
             <Button 
               className="bg-red-600 hover:bg-red-700"
-              onClick={() => window.open("https://www.hamicoin.com/#buy", "_blank")}
+              onClick={() => window.open("https://x.com/antitrumpcrypto", "_blank")}
             >
               Buy Now
             </Button>
@@ -54,7 +54,7 @@ const NavBar = () => {
             <a href="#community" className="block py-2 hover:text-red-400" onClick={() => setIsMenuOpen(false)}>Community</a>
             <Button 
               className="bg-red-600 hover:bg-red-700 w-full"
-              onClick={() => window.open("https://www.hamicoin.com/#buy", "_blank")}
+              onClick={() => window.open("https://x.com/antitrumpcrypto", "_blank")}
             >
               Buy Now
             </Button>

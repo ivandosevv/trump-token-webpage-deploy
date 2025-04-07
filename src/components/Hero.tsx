@@ -9,14 +9,17 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">ANTITRUMP TOKEN</h1>
-            <p className="text-xl md:text-2xl mb-8 text-white/80">
+            <p className="text-xl md:text-2xl mb-6 text-white/80">
               The cryptocurrency that goes down when he goes up. Join the resistance with $ANTITRUMP.
+            </p>
+            <p className="text-2xl md:text-3xl mb-8 font-semibold">
+              While others are losing in the market, be the one winning. Buy $ANTITRUMP
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button 
                 size="lg" 
                 className="bg-black hover:bg-gray-900 text-white border-2 border-white"
-                onClick={() => window.open("https://www.hamicoin.com/#buy", "_blank")}
+                onClick={() => window.open("https://x.com/antitrumpcrypto", "_blank")}
               >
                 Buy Now <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
