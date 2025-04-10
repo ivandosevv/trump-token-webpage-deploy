@@ -54,11 +54,11 @@ const Community = () => {
               </div>
               <h3 className="text-xl font-bold mb-2">Buy ANTITRUMP</h3>
               <p className="text-gray-300 text-center mb-4">
-                Ready to join the movement? Buy ANTITRUMP tokens now.
+                Ready to join the movement? Buy $NOTRUMP tokens now.
               </p>
               <Button 
                 className="bg-red-600 hover:bg-red-700 text-white"
-                onClick={() => window.open("https://www.hamicoin.com/#buy", "_blank")}
+                onClick={() => window.open("https://dexscreener.com/solana/5vg98ZY1XXH1bYEiQQ24ixix9GS6g2jJnqnadsxev4TB", "_blank")}
               >
                 Buy Now <ExternalLink className="ml-2 h-4 w-4" />
               </Button>

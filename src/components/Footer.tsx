@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-gray-800">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">$ANTITRUMP</h3>
+            <h3 className="text-2xl font-bold mb-4">$NOTRUMP</h3>
             <p className="text-gray-400 mb-4">
-              The cryptocurrency that represents resistance and goes down when he goes up.
+              The best investment option while the market is collapsing.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -49,7 +49,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a 
-                  href="https://www.hamicoin.com/#buy" 
+                  href="https://dexscreener.com/solana/5vg98ZY1XXH1bYEiQQ24ixix9GS6g2jJnqnadsxev4TB" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"

@@ -8,7 +8,7 @@ const Tokenomics = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Tokenomics</h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Understanding the distribution and economics of $ANTITRUMP token.
+            Understanding the distribution and economics of $NOTRUMP token.
           </p>
         </div>
 
@@ -21,35 +21,35 @@ const Tokenomics = () => {
                   <span>Community Sale</span>
                   <span className="font-bold">50%</span>
                 </div>
-                <Progress value={50} className="h-3 bg-gray-700" indicatorClassName="bg-red-500" />
+                <Progress value={50} className="h-3 bg-gray-700" />
               </div>
               <div>
                 <div className="flex justify-between mb-2">
                   <span>Liquidity Pool</span>
                   <span className="font-bold">30%</span>
                 </div>
-                <Progress value={30} className="h-3 bg-gray-700" indicatorClassName="bg-red-500" />
+                <Progress value={30} className="h-3 bg-gray-700" />
               </div>
               <div>
                 <div className="flex justify-between mb-2">
                   <span>Marketing</span>
                   <span className="font-bold">10%</span>
                 </div>
-                <Progress value={10} className="h-3 bg-gray-700" indicatorClassName="bg-red-500" />
+                <Progress value={10} className="h-3 bg-gray-700" />
               </div>
               <div>
                 <div className="flex justify-between mb-2">
                   <span>Team</span>
                   <span className="font-bold">5%</span>
                 </div>
-                <Progress value={5} className="h-3 bg-gray-700" indicatorClassName="bg-red-500" />
+                <Progress value={5} className="h-3 bg-gray-700" />
               </div>
               <div>
                 <div className="flex justify-between mb-2">
                   <span>Development</span>
                   <span className="font-bold">5%</span>
                 </div>
-                <Progress value={5} className="h-3 bg-gray-700" indicatorClassName="bg-red-500" />
+                <Progress value={5} className="h-3 bg-gray-700" />
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ const Tokenomics = () => {
               </div>
               <div className="flex justify-between py-3 border-b border-gray-700">
                 <span className="text-gray-300">Token Symbol</span>
-                <span className="font-bold">$ANTITRUMP</span>
+                <span className="font-bold">$NOTRUMP</span>
               </div>
               <div className="flex justify-between py-3 border-b border-gray-700">
                 <span className="text-gray-300">Total Supply</span>

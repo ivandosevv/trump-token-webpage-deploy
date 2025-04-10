@@ -15,7 +15,7 @@ const NavBar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <span className="text-2xl font-bold">$ANTITRUMP</span>
+            <span className="text-2xl font-bold">$NOTRUMP</span>
           </div>
 
           {/* Desktop Menu */}
@@ -26,7 +26,7 @@ const NavBar = () => {
             <a href="#community" className="hover:text-red-400">Community</a>
             <Button 
               className="bg-red-600 hover:bg-red-700"
-              onClick={() => window.open("https://x.com/antitrumpcrypto", "_blank")}
+              onClick={() => window.open("https://dexscreener.com/solana/5vg98ZY1XXH1bYEiQQ24ixix9GS6g2jJnqnadsxev4TB", "_blank")}
             >
               Buy Now
             </Button>
@@ -54,7 +54,7 @@ const NavBar = () => {
             <a href="#community" className="block py-2 hover:text-red-400" onClick={() => setIsMenuOpen(false)}>Community</a>
             <Button 
               className="bg-red-600 hover:bg-red-700 w-full"
-              onClick={() => window.open("https://x.com/antitrumpcrypto", "_blank")}
+              onClick={() => window.open("https://dexscreener.com/solana/5vg98ZY1XXH1bYEiQQ24ixix9GS6g2jJnqnadsxev4TB", "_blank")}
             >
               Buy Now
             </Button>
