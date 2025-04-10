@@ -1,0 +1,20 @@
+
+{
+  "name": "antitrump-token",
+  "compatibility_date": "2025-04-10",
+  "assets": {
+    "directory": "./dist"
+  },
+  "site": {
+    "bucket": "./dist"
+  },
+  "routes": [
+    {
+      "pattern": "*",
+      "zone_name": "antitrumpsol.com"
+    }
+  ],
+  "triggers": {
+    "crons": []
+  }
+}
