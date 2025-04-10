@@ -8,6 +8,7 @@
   "site": {
     "bucket": "./dist"
   },
+  "main": "./dist/index.html",
   "routes": [
     {
       "pattern": "*",
